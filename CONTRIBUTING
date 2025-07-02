@@ -1,0 +1,73 @@
+# Contributing to the Awesome C++ Resources
+
+Thank you for your interest in contributing to the **Awesome C++ Resources** project! This guide outlines the steps and guidelines for contributing to ensure a smooth and collaborative process. Whether you're adding new resources, fixing typos, or improving the structure, your contributions are valuable.
+
+## Table of Contents
+1. [Getting Started](#getting-started)
+2. [Types of Contributions](#types-of-contributions)
+3. [How to Contribute](#how-to-contribute)
+4. [Guidelines for Adding Resources](#guidelines-for-adding-resources)
+8. [Contact](#contact)
+
+## Getting Started
+
+1. **Fork the Repository**: Fork the project repository on GitHub to your own account.
+2. **Clone the Repository**: Clone your forked repository to your local machine:
+   ```
+   git clone https://github.com/MaverickPoly/awesome-cpp.git
+   ```
+3. **Create a Branch**: Create a new branch for your changes:
+   ```
+   git checkout -b your-branch-name
+   ```
+4. **Install Dependencies**: Ensure you have a Markdown editor or any text editor to modify the `awesome_cpp_resources.md` file. Optionally, use a Markdown linter to check formatting.
+
+## Types of Contributions
+
+We welcome various types of contributions, including but not limited to:
+- Adding new C++ libraries, frameworks, or tools with appropriate links and descriptions.
+- Updating outdated links or descriptions.
+- Fixing typos, grammatical errors, or formatting issues.
+- Improving the structure or organization of the document.
+- Adding new sections for emerging C++ domains or tools.
+- Suggesting enhancements to the contribution guidelines.
+
+## How to Contribute
+
+1. **Identify an Issue**: Check the [Issues](https://github.com/MaverickPoly/awesome-cpp/issues) page for open tasks or create a new issue to propose your contribution.
+2. **Discuss Your Idea**: For significant changes (e.g., adding a new section), comment on an existing issue or create a new one to discuss your proposal with maintainers.
+3. **Make Changes**: Edit the `awesome_cpp_resources.md` file or other relevant files in your branch. Follow the [Guidelines for Adding Resources](#guidelines-for-adding-resources).
+4. **Test Your Changes**: Ensure your changes render correctly in Markdown viewers (e.g., GitHub’s Markdown preview).
+5. **Commit Your Changes**: Write clear, concise commit messages:
+   ```
+   git commit -m "Add [resource-name] to [section-name]"
+   ```
+6. **Push to Your Fork**:
+   ```
+   git push origin your-branch-name
+   ```
+7. **Submit a Pull Request**: Open a pull request (PR) from your branch to the main repository’s `main` branch. Include a clear description of your changes in the PR.
+
+## Guidelines for Adding Resources
+
+To maintain consistency and quality, please adhere to the following guidelines when adding new resources:
+
+- **Relevance**: Ensure the resource is directly related to C++ programming (e.g., compilers, libraries, frameworks, or learning materials).
+- **Official Links**: Provide a link to the official website, GitHub repository, or documentation. Avoid unofficial mirrors or outdated sources.
+- **Description**: Write a concise, one-sentence description of the resource, highlighting its primary use or benefit.
+- **Format**: Follow the existing Markdown format:
+  ```
+  - **[Resource Name](https://official-link.com/)**: Brief description of the resource.
+  ```
+- **Category**: Place the resource in the appropriate section (e.g., Game Development, Robotics). If a new section is needed, propose it in an issue first.
+- **Uniqueness**: Check that the resource isn’t already listed to avoid duplicates.
+- **Licensing**: Prefer open-source resources with permissive licenses (e.g., MIT, Apache). For commercial tools, note any licensing restrictions in the description.
+
+## Contact
+
+For questions or clarifications, reach out via:
+- **GitHub Issues**: Open an issue on the repository.
+- **Email**: [mailto:realahmadjon82@gmail.com](mailto:realahmadjon82@gmail.com).
+- **Community**: Join the [C++ Slack](https://cpplang.slack.com/) (request an invite via [cpplang.net](https://cpplang.net/)) for real-time discussions.
+
+Thank you for helping make **Awesome C++ Resources** even better!
